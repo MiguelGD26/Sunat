@@ -1,0 +1,54 @@
+{
+    "tipoDocumento": "01",
+    "serie": "F001",
+    "correlativo": "233",
+    "fechaEmision": "2025-01-07",
+    "moneda": "PEN",
+    "emisor": {
+        "tipoDocIdentidad": "6",
+        "ruc": "20601546913",
+        "razonSocial": "MI EMPRESA DE PRUEBA S.A.C.",
+        "direccion": "AV. JAVIER PRADO 123 - SAN ISIDRO - LIMA - LIMA"
+    },
+    "receptor": {
+        "tipoDocIdentidad": "6",
+        "ruc": "20547872191",
+        "razonSocial": "CLIENTE DE PRUEBA S.A.C.",
+        "direccion": "CALLE LOS PINOS 456 - MIRAFLORES - LIMA - LIMA"
+    },
+    "totalGravado": 250.00,
+    "totalIGV": 45.00,
+    "totalGeneral": 295.00,
+    "detalles": [
+        {
+            "id": 1,
+            "codigoProducto": "P001",
+            "descripcion": "Laptop Gamer XYZ",
+            "unidadMedida": "NIU",
+            "cantidad": 1.0,
+            "valorUnitario": 150.00,
+            "precioUnitario": 177.00,
+            "valorTotal": 150.00,
+            "afectacionIGV": "10",
+            "igv": 27.00
+        },
+        {
+            "id": 2,
+            "codigoProducto": "P002",
+            "descripcion": "Mouse Inalámbrico",
+            "unidadMedida": "NIU",
+            "cantidad": 2.0,
+            "valorUnitario": 50.00,
+            "precioUnitario": 59.00,
+            "valorTotal": 100.00,
+            "afectacionIGV": "10",
+            "igv": 18.00
+        }
+    ],
+    "leyendas": [
+        {
+            "codigo": "1000",
+            "valor": "DOSCIENTOS NOVENTA Y CINCO CON 00/100 SOLES"
+        }
+    ]
+}
