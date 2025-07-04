@@ -1,0 +1,72 @@
+{
+    "tipoDocumento": "03",
+    "serie": "B001",
+    "correlativo": "458",
+    "fechaEmision": "2025-07-05",
+    "moneda": "PEN",
+    "emisor": {
+        "tipoDocIdentidad": "6",
+        "ruc": "20601546913",
+        "razonSocial": "MI EMPRESA DE PRUEBA S.A.C.",
+        "nombreComercial": "Mi Tienda de Prueba",
+        "direccion": {
+            "ubigeo": "150131",
+            "departamento": "LIMA",
+            "provincia": "LIMA",
+            "distrito": "SAN ISIDRO",
+            "urbanizacion": "-",
+            "direccion": "AV. JAVIER PRADO 123",
+            "codLocal": "0000"
+        }
+    },
+    "receptor": {
+        "tipoDocIdentidad": "1",
+        "ruc": "45678912",
+        "razonSocial": "JUAN PEREZ GARCIA",
+        "nombreComercial": "JUAN PEREZ",
+        "direccion": {
+            "ubigeo": "150141",
+            "departamento": "LIMA",
+            "provincia": "LIMA",
+            "distrito": "SURCO",
+            "urbanizacion": "-",
+            "direccion": "AV. LOS GERANIOS 789",
+            "codLocal": "0000"
+        }
+    },
+    "totalGravado": "55.00",
+    "totalIGV": "9.90",
+    "totalGeneral": "64.90",
+    "detalles": [
+        {
+            "id": 1,
+            "codigoProducto": "C005",
+            "descripcion": "Cafe Americano Grande",
+            "unidadMedida": "NIU",
+            "cantidad": "1.00",
+            "valorUnitario": "10.00",
+            "precioUnitario": "11.80",
+            "valorTotal": "10.00",
+            "afectacionIGV": "10",
+            "igv": "1.80"
+        },
+        {
+            "id": 2,
+            "codigoProducto": "S012",
+            "descripcion": "Sandwich de Pollo Clasico",
+            "unidadMedida": "NIU",
+            "cantidad": "3.00",
+            "valorUnitario": "15.00",
+            "precioUnitario": "17.70",
+            "valorTotal": "45.00",
+            "afectacionIGV": "10",
+            "igv": "8.10"
+        }
+    ],
+    "leyendas": [
+        {
+            "codigo": "1000",
+            "valor": "SESENTA Y CUATRO CON 90/100 SOLES"
+        }
+    ]
+}

@@ -1,48 +1,66 @@
 {
     "tipoDocumento": "01",
     "serie": "F001",
-    "correlativo": "233",
+    "correlativo": "248",
     "fechaEmision": "2025-01-07",
     "moneda": "PEN",
     "emisor": {
         "tipoDocIdentidad": "6",
         "ruc": "20601546913",
         "razonSocial": "MI EMPRESA DE PRUEBA S.A.C.",
-        "direccion": "AV. JAVIER PRADO 123 - SAN ISIDRO - LIMA - LIMA"
+        "nombreComercial": "Mi Tienda de Prueba",
+        "direccion": {
+            "ubigeo": "150131",
+            "departamento": "LIMA",
+            "provincia": "LIMA",
+            "distrito": "SAN ISIDRO",
+            "urbanizacion": "-",
+            "direccion": "AV. JAVIER PRADO 123",
+            "codLocal": "0000"
+        }
     },
     "receptor": {
         "tipoDocIdentidad": "6",
         "ruc": "20547872191",
         "razonSocial": "CLIENTE DE PRUEBA S.A.C.",
-        "direccion": "CALLE LOS PINOS 456 - MIRAFLORES - LIMA - LIMA"
+        "nombreComercial": "Cliente de Prueba",
+         "direccion": {
+            "ubigeo": "150119",
+            "departamento": "LIMA",
+            "provincia": "LIMA",
+            "distrito": "MIRAFLORES",
+            "urbanizacion": "URB. SANTA CRUZ",
+            "direccion": "CALLE LOS PINOS 456",
+            "codLocal": "0000"
+        }
     },
-    "totalGravado": 250.00,
-    "totalIGV": 45.00,
-    "totalGeneral": 295.00,
+    "totalGravado": "250.00",
+    "totalIGV": "45.00",
+    "totalGeneral": "295.00",
     "detalles": [
         {
             "id": 1,
             "codigoProducto": "P001",
             "descripcion": "Laptop Gamer XYZ",
             "unidadMedida": "NIU",
-            "cantidad": 1.0,
-            "valorUnitario": 150.00,
-            "precioUnitario": 177.00,
-            "valorTotal": 150.00,
+            "cantidad": "1.0",
+            "valorUnitario": "150.00",
+            "precioUnitario": "177.00",
+            "valorTotal": "150.00",
             "afectacionIGV": "10",
-            "igv": 27.00
+            "igv": "27.00"
         },
         {
             "id": 2,
             "codigoProducto": "P002",
-            "descripcion": "Mouse Inalámbrico",
+            "descripcion": "Mouse Inalambrico",
             "unidadMedida": "NIU",
-            "cantidad": 2.0,
-            "valorUnitario": 50.00,
-            "precioUnitario": 59.00,
-            "valorTotal": 100.00,
+            "cantidad": "2.0",
+            "valorUnitario": "50.00",
+            "precioUnitario": "59.00",
+            "valorTotal": "100.00",
             "afectacionIGV": "10",
-            "igv": 18.00
+            "igv": "18.00"
         }
     ],
     "leyendas": [
